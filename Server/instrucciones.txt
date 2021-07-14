@@ -1,0 +1,19 @@
+Abrir la consola dentro de \Server
+
+Ejecutar en la consola: npm install
+una vez se bajen los paquetes
+Ejecutar en la consola:npm install nodemon
+Ejecutar en la consola:nodemon
+
+deberia aparecerles lo siguiente.
+
+[nodemon] 2.0.7
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node index.js`
+Example app listening on port port!
+
+La data la consume del List.json
+
+Happy hacking!!

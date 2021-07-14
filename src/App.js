@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import FecthCalls from './components/FecthCalls';
+import Apis from './components/Apis';
+import PracticaFetch from './practica/PracticaFetch';
 
 function App() {
   return (
@@ -9,14 +12,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <FecthCalls/> */}
+        {/* <Apis/> */}
+        <PracticaFetch/>
       </header>
     </div>
   );
